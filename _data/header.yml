@@ -3,7 +3,7 @@ title: Solidity Summit
 date: 29+30 April 2020<br>Berlin
 subtitle: Two-day, friendly-sized single-track event with talks and workshops
 description: |
-   The Solidity team is organizing a Solidity summit in Berlin to gather people involved and interested in the language, 
-   the ecosystem, and tooling around it. We would like to have useful discussions that will hopefully result in actual proposals that are later implemented.
+   The Solidity team is organizing a language summit in Berlin to gather people involved and interested in the Solidity language, 
+   the ecosystem and tooling around it. The intent is to have useful discussions that result in improvement proposals leading to actual implementations.
    In particular, this event should help increase the amount of communication between teams working on similar 
    topics or on topics that build on top of each other and identify needs for the smart contract ecosystem for Ethereum.
