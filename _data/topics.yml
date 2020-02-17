@@ -34,11 +34,11 @@ sections:
      - type: card
        title: unifying or simplifying the deployment process 
      - type: card
-       title: integration into existing "larger ecosystem tools" (e.g. vscode via Language Server, LLVM, dwarf) 
+       title: integration into existing "larger ecosystem tools" (e.g. vscode via Language Server, LLVM, DWARF) 
      - type: card
        title: mechanisms / programming patterns (on the EVM) like mutexes, state machines, upgradeable contracts, libraries, create2, etc. 
      - type: card
-       title: Meta transactions, a.k.a. gasless transactions, the gas station network etc.
+       title: meta transactions, a.k.a. gasless transactions, the gas station network etc.
  - title: REGISTRATION
    subtitle: 
    effect: slide-up
