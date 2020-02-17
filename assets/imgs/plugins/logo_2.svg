@@ -1,0 +1,24 @@
+<svg width="528" height="802" xmlns="http://www.w3.org/2000/svg">
+ <title>Vector 1</title>
+
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="804" width="530" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="Page-1">
+   <g id="solidity">
+    <g id="Group">
+     <path d="m395.767962,-0.694722l-130.704,232.302l-261.226,0l130.614,-232.302l261.316,0" opacity="0.45" id="Shape"/>
+     <path d="m265.063962,231.607278l261.318,0l-130.614,-232.302l-261.316,0l130.612,232.302z" opacity="0.6" id="Shape_1_"/>
+     <path d="m134.451962,463.819278l130.612,-232.212l-130.612,-232.302l-130.614,232.302l130.614,232.212z" opacity="0.8" id="Shape_2_"/>
+     <path d="m135.716962,812.272278l130.704,-232.303l261.318,0l-130.705,232.303l-261.317,0" opacity="0.45" id="Shape_3_"/>
+     <path d="m266.419962,579.970278l-261.317,0l130.613,232.303l261.317,0l-130.613,-232.303z" opacity="0.6" id="Shape_4_"/>
+     <path d="m397.033962,347.758278l-130.614,232.212l130.614,232.303l130.704,-232.303l-130.704,-232.212z" opacity="0.8" id="Shape_5_"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

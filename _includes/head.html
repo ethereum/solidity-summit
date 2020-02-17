@@ -1,0 +1,49 @@
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  {% if page.title %}
+  <title>{{page.title}}</title>
+  {% endif %}
+
+  <meta charset="utf-8" / />
+
+  <meta property="og:url" content="{{site.url}}{{page.url}}" />
+
+  <meta content="{{ page.title }}" property="og:site_name">
+  {% if page.type %}
+    <meta content="{{ page.type }}" property="og:type">
+  {% else %}
+    <meta content="website" property="og:type">
+  {% endif %}
+  {% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+  {% endif %}
+  {% if page.share %}
+    <meta content="{{ page.share }}" property="og:description">
+  {% else %}
+    <meta content="{{ page.description }}" property="og:description">
+  {% endif %}
+  {% if page.image %}
+    <meta content="{{ page.image }}" property="og:image">
+  {% endif %}
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" as="style" onload="this.rel='stylesheet'">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}" as="style" onload="this.rel='stylesheet'">
+
+  <!--  Favicons -->
+
+  <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | absolute_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/assets/favicon.ico' | absolute_url }}" type="image/x-icon">
+
+  <!-- The below color will change the browser bar color on most mobile browsers -->
+  <meta name="theme-color" content="#ffffff">
+
+</head>

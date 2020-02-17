@@ -1,0 +1,31 @@
+sections:
+ - title: TOPICS
+   subtitle: 
+   effect: slide-up
+   wide: true
+   text: 
+   list:
+     - type: card
+       title: Solidity. Change proposals to the language, analyses.
+     - type: card
+       title: Yul. Change proposals to the language, analyses.
+     - type: card
+       title: unification / extension of the ABI
+     - type: card
+       title: debuggers and debugging data output
+     - type: card
+       title: source verification
+     - type: card
+       title: NatSpec
+     - type: card
+       title: metadata / packages
+     - type: card
+       title: testing frameworks for Smart Contracts
+     - type: card
+       title: unifying or simplifying the deployment process 
+     - type: card
+       title: integration into existing “larger ecosystem tools” (e.g. vscode via Language Server, LLVM, dwarf) 
+     - type: card
+       title: mechanisms / programming patterns (on the EVM) like mutexes, state machines, upgradeable contracts, libraries, create2, etc. 
+     - type: card
+       title: Meta transactions, a.k.a. gasless transactions, the gas station network etc            
