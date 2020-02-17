@@ -1,14 +1,12 @@
 {% for section in site.data.topics.sections %}
 <div class="container-fluid" id="{{section.anchor}}">
     <div class="container mb-5 section">
-        <h1>Topics</h1>
+        <h1>{{ section.title }}</h1>
         <br>
         <div class="row">
                 <div class="col-12">
-
-
+                        {{ section.text }}
                         {% if section.list %}
-                        
                         <div class="row">
                           {% for item in section.list %}
                           {% if item.type =='card' %}
