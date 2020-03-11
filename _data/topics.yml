@@ -1,4 +1,9 @@
 sections:
+ - title: UPDATE
+   text:
+    <p>Given the recent developments in connection with the corona virus, as a precautionary measure,
+    the Solidity Summit will <b>not</b> happen as planned. Instead, we will transform it into an online event on the same days.
+    Please stay tuned for updates!</p>
  - title: SUMMIT
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
