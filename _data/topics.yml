@@ -1,19 +1,15 @@
 sections:
  - title: UPDATE
    text:
-    <p>Given the recent developments in connection with the corona virus, as a precautionary measure,
-    the Solidity Summit will <b>not</b> happen as planned. Instead, we will transform it into an online event on the same days.
-    Please stay tuned for updates!</p>
+    <p>Given the recent developments, the Solidity Summit will be transformed into an online event. We will shorty update you with details about the online setup and a preliminary agenda. 
+    Please feel free to sign up via the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>. You can also still submit talk applications via the same form!</p>
  - title: SUMMIT
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
     Do you want to build a debugger but are missing information from the compiler?
     Are you working with Solidity on a day-to-day basis and just want to hang out with similar-minded people?
     Then this event is for you!</p>
-    <p>If you want to participate - either as a visitor or presenter - fill out the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.
-    Please submit talk applications by the end of February!</p>
-    <p>Ticket prices are still to be determined, but proceeds from ticket sales will only be used to cover venue and production costs.
-    Limited number of scholarships for students and discounted tickets will also be available, please get in touch with us by email!</p>
+    <p>If you want to participate - either as a visitor or presenter - fill out the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.</p>
  - title: TOPICS
    subtitle: 
    effect: slide-up
