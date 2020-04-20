@@ -7,14 +7,10 @@ sections:
    text:
     <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted 
     Jitsi video chat rooms. <br> <br>
-    There are two options how you’ll be able to participate during the summit: <br>
-1. Join the Jitsi video conference. <br>
-2. Watch the livestream. <br> <br>
-Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option 
-to ensure a smooth experience for everyone and save your CPU. <br>
-Once live, the link to the Solidity Summit's Interspace portal will be added to this website. The portal will include all 
-relevant links (chat, livestream, video conference, agenda) in one place.
-</p>
+    You can participate the event by either joining the Jitsi video conference room or by watching the livestream. Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option 
+    to ensure a smooth experience for everyone and save your CPU. <br> <br> 
+    Once live, the link to the Solidity Summit's Interspace portal will be added to this website. The portal will include all 
+    relevant links (chat, livestream, video conference, agenda) in one place. </p>
 - title: WHO CAN JOIN?
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
