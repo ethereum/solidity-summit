@@ -4,12 +4,10 @@ date: 29+30 April 2020<br>Virtual
 subtitle: Two-day, friendly-sized interactive online event with talks and workshops
 description: |
    The Solidity Summit is a free interactive forum for people involved and interested in the Solidity language and the 
-   ecosystem around it. It features discussions & talks on Solidity, Yul, language design and tooling, and is 
-   organized by the Solidity team. <br>
+   ecosystem around it. It features discussions & talks on Solidity, Yul, language design and tooling. <br>
    <br>
    During the event, we aim to <br>
-    <ul>
-    <li> have useful discussions that result in improvement proposals, leading to actual implementations </li>
-    <li> foster communication between teams working on similar topics </li>
-    <li> identify needs for the smart contract ecosystem for Ethereum </li>
-    </ul>
+     + have useful discussions that result in improvement proposals, leading to actual implementations <br>
+     + foster communication between teams working on similar topics <br>
+     + identify needs for the smart contract ecosystem for Ethereum <br>
+
