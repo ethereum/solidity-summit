@@ -1,27 +1,27 @@
 sections:
  - title: AGENDA & REGISTRATION
    text:
-    <p>You can find the event agenda <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit#gid=2065734219">here</a>. 
+    <p>You can find the event agenda <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit#gid=2065734219">here</a>.
     If you’d like to participate, please make sure to register upfront using the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.</p>
  - title: PARTICIPATE ONLINE
    text:
-    <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted 
+    <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted
     Jitsi video chat rooms. <br> <br>
-    You can participate the event by either joining the Jitsi video conference room or by watching the livestream. Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option 
-    to ensure a smooth experience for everyone and save your CPU. <br> <br> 
-    Once live, the link to the Solidity Summit's Interspace portal will be added to this website. The portal will include all 
+    You can participate the event by either joining the Jitsi video conference room or by watching the livestream. Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option
+    to ensure a smooth experience for everyone and save your CPU. <br> <br>
+    Once live, the link to the Solidity Summit's Interspace portal will be added to this website. The portal will include all
     relevant links (chat, livestream, video conference, agenda) in one place. </p>
-- title: WHO CAN JOIN?
+ - title: WHO CAN JOIN?
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
     Do you want to build a debugger but are missing information from the compiler?
     Are you working with Solidity on a day-to-day basis and just want to hang out with similar-minded people?
     Then this event is for you!</p>
  - title: TOPICS
-   subtitle: 
+   subtitle:
    effect: slide-up
    wide: true
-   text: 
+   text:
    list:
      - type: card
        title: Solidity (change proposals to the language, analyses, ...)
@@ -40,16 +40,15 @@ sections:
      - type: card
        title: testing frameworks for Smart Contracts
      - type: card
-       title: unifying or simplifying the deployment process 
+       title: unifying or simplifying the deployment process
      - type: card
-       title: integration into existing "larger ecosystem tools" (e.g. vscode via Language Server, LLVM, DWARF) 
+       title: integration into existing "larger ecosystem tools" (e.g. vscode via Language Server, LLVM, DWARF)
      - type: card
-       title: mechanisms / programming patterns (on the EVM) like mutexes, state machines, upgradeable contracts, libraries, create2, etc. 
+       title: mechanisms / programming patterns (on the EVM) like mutexes, state machines, upgradeable contracts, libraries, create2, etc.
      - type: card
        title: meta transactions, a.k.a. gasless transactions, the gas station network etc.
  - title: STAY TUNED
-   subtitle: 
+   subtitle:
    effect: slide-up
    wide: true
    text: To not miss any update on the Solidity Summit, follow the Solidity team on <a href="https://twitter.com/solidity_lang">Twitter</a>.
-
