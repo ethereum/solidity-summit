@@ -1,15 +1,26 @@
 sections:
- - title: UPDATE
+ - title: AGENDA & REGISTRATION
    text:
-    <p>Given the recent developments, the Solidity Summit will be transformed into an online event. We will shorty update you with details about the online setup and a preliminary agenda. 
-    Please feel free to sign up via the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>. You can also still submit talk applications via the same form!</p>
- - title: SUMMIT
+    <p>You can find the event agenda <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit#gid=2065734219">here</a>. 
+    If you’d like to participate, please make sure to register upfront using the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.</p>
+ - title: PARTICIPATE ONLINE
+   text:
+    <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted 
+    Jitsi video chat rooms. <br> <br>
+    There are two options how you’ll be able to participate during the summit: <br>
+1. Join the Jitsi video conference. <br>
+2. Watch the livestream. <br> <br>
+Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option 
+to ensure a smooth experience for everyone and save your CPU. <br>
+Once live, the link to the Solidity Summit's Interspace portal will be added to this website. The portal will include all 
+relevant links (chat, livestream, video conference, agenda) in one place.
+</p>
+- title: WHO CAN JOIN?
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
     Do you want to build a debugger but are missing information from the compiler?
     Are you working with Solidity on a day-to-day basis and just want to hang out with similar-minded people?
     Then this event is for you!</p>
-    <p>If you want to participate - either in an active or passive role - fill out the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.</p>
  - title: TOPICS
    subtitle: 
    effect: slide-up
@@ -40,9 +51,9 @@ sections:
        title: mechanisms / programming patterns (on the EVM) like mutexes, state machines, upgradeable contracts, libraries, create2, etc. 
      - type: card
        title: meta transactions, a.k.a. gasless transactions, the gas station network etc.
- - title: REGISTRATION
+ - title: STAY TUNED
    subtitle: 
    effect: slide-up
    wide: true
-   text: To register, please fill out the <a href="https://docs.google.com/forms/d/1SMJa_ezfNLGNzBB4YLdQXn5Jk-b4RsUSuJdj5KbbYhU">application form</a>.
+   text: To not miss any update on the Solidity Summit, follow the Solidity team on <a href="https://twitter.com/solidity_lang">Twitter</a>.
 
