@@ -1,11 +1,18 @@
-(function(d, s, id) 
-    { 
-        var js, pjs = d.getElementsByTagName(s)[0]; 
-        if (d.getElementById(id)) return; 
-        js = d.createElement(s); 
-        js.id = id; 
-        js.src = "//www.tickcounter.com/static/js/loader.js"; 
-        pjs.parentNode.insertBefore(js, pjs); 
+var deadline = new Date("2020-04-29T00:13:00.000+01:00");
+  
+var x = setInterval(function() { 
+    var now = new Date().getTime(); 
+    var t = deadline - now; 
+    var days = Math.floor(t / (1000 * 60 * 60 * 24)); 
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
+    var seconds = Math.floor((t % (1000 * 60)) / 1000); 
+    document.getElementById("day").innerHTML =days ; 
+    document.getElementById("hour").innerHTML =hours; 
+    document.getElementById("minute").innerHTML = minutes;  
+    document.getElementById("second").innerHTML =seconds;  
+    if (t < 0) { 
+        clearInterval(x); 
+        document.getElementById("clockdiv").style.visibility = "hidden";
     }
-    (document, "script", "tickcounter-sdk")
-);
+}, 1000);

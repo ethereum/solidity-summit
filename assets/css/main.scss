@@ -495,6 +495,22 @@ h2 {
   animation: bounceright .3s alternate ease infinite;
 }
 
+#clockdiv{  
+  float: left;
+  padding-top: 12%;
+  color: #727272;  
+  width: 100%; 
+  text-align: center;
+} 
+#clockdiv > div{ 
+  float: left;
+  width: 25%;
+  font-size: 42px;
+}
+.smalltext{ 
+  font-size: 16px;
+} 
+
 
 @-webkit-keyframes bounceright {
   from {
