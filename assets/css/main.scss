@@ -495,16 +495,20 @@ h2 {
   animation: bounceright .3s alternate ease infinite;
 }
 
-#clockdiv{  
+.clockdiv{  
   float: left;
-  padding-top: 12%;
+  padding-top: 10%;
+  padding-bottom: 10%;
   color: #727272;  
   width: 100%; 
   text-align: center;
 } 
-#clockdiv > div{ 
+.timeItem {
   float: left;
   width: 25%;
+}
+.clockdiv > div{ 
+  float: left;
   font-size: 42px;
 }
 .smalltext{ 

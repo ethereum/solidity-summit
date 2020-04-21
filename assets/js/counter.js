@@ -1,4 +1,4 @@
-var deadline = new Date("2020-04-29T00:13:00.000+01:00");
+var deadline = new Date("2020-04-29T13:00:00.000+01:00");
   
 var x = setInterval(function() { 
     var now = new Date().getTime(); 
@@ -7,12 +7,23 @@ var x = setInterval(function() {
     var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60)); 
     var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)); 
     var seconds = Math.floor((t % (1000 * 60)) / 1000); 
-    document.getElementById("day").innerHTML =days ; 
-    document.getElementById("hour").innerHTML =hours; 
-    document.getElementById("minute").innerHTML = minutes;  
-    document.getElementById("second").innerHTML =seconds;  
+    
+    [].forEach.call(document.getElementsByClassName("days"), function (el) {
+        el.innerHTML = days;
+    });
+    [].forEach.call(document.getElementsByClassName("hours"), function (el) {
+        el.innerHTML = hours;
+    });
+    [].forEach.call(document.getElementsByClassName("minutes"), function (el) {
+        el.innerHTML = minutes;
+    });
+    [].forEach.call(document.getElementsByClassName("seconds"), function (el) {
+        el.innerHTML = seconds;
+    });
     if (t < 0) { 
-        clearInterval(x); 
-        document.getElementById("clockdiv").style.visibility = "hidden";
+        clearInterval(x);
+        [].forEach.call(document.getElementsByClassName("clockdiv"), function (el) {
+            el.style.visibility = "hidden";
+        }); 
     }
 }, 1000);
