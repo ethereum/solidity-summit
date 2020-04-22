@@ -3,7 +3,7 @@ function pad2(num) {
     return s.substr(s.length - 2);
 }
 
-var deadline = new Date("2020-04-29T13:00:00.000+01:00");
+var deadline = new Date("2020-04-29T13:00:00.000+02:00");
 
 var x = setInterval(function() { 
     var now = new Date().getTime(); 
