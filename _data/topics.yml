@@ -2,11 +2,11 @@ sections:
  - title: ABOUT
    text:
     <p>The Solidity Summit is a free interactive forum for people involved and interested in the Solidity language and the ecosystem around it. 
-   It features discussions & talks on Solidity, Yul, language design and tooling.
-   The event wants to promote useful discussions that result in language improvement proposals, leading to actual implementations. 
-   Furthermore, we aim to foster communication between teams working on similar topics and identify needs for the smart contract ecosystem for Ethereum. <br><br>
-   You can find the agenda of the 2020 online edition <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit?usp=sharing">here</a>.  
-- title: PARTICIPATE ONLINE
+    It features discussions & talks on Solidity, Yul, language design and tooling.
+    The event wants to promote useful discussions that result in language improvement proposals, leading to actual implementations. 
+    Furthermore, we aim to foster communication between teams working on similar topics and identify needs for the smart contract ecosystem for Ethereum. <br><br>
+    You can find the agenda of the 2020 online edition <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit?usp=sharing">here</a>.  
+ - title: PARTICIPATE ONLINE
    text:
     <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted
     Jitsi video chat rooms. <br> <br>
