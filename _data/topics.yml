@@ -6,14 +6,6 @@ sections:
     The event wants to promote useful discussions that result in language improvement proposals, leading to actual implementations. 
     Furthermore, we aim to foster communication between teams working on similar topics and identify needs for the smart contract ecosystem for Ethereum. <br><br>
     You can find the agenda of the 2020 online edition <a href="https://docs.google.com/spreadsheets/d/1ylkaTYKx9TbAifCgyH2jN9SKJKrYfzab9zzTZgSL44g/edit?usp=sharing">here</a>.  
- - title: PARTICIPATE ONLINE
-   text:
-    <p>The summit is powered by Interspace.Chat. Interspace is a virtual meeting infrastructure based on self-hosted
-    Jitsi video chat rooms. <br> <br>
-    You can participate the event by either joining the Jitsi video conference room or by watching the livestream. Unless you actively want to participate/talk/present during the respective session, we recommend using the livestream option
-    to ensure a smooth experience for everyone and save your CPU. <br> <br>
-    Visit the <a href="https://solidity-summit.netlify.app/">Solidity Summit's Interspace portal</a> to participate. The portal includes all
-    relevant links (chat, livestream, video conference, agenda) in one place. </p>
  - title: WHO CAN JOIN?
    text:
     <p>Do you have a change proposal for the Solidity language? Are you using a language feature in a novel way that might benefit others?
