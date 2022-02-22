@@ -1,44 +1,32 @@
-$(document).ready(function () {
+/*
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
-  //$('body').css('display', 'none');
-  //$('body').fadeIn(500);
+(function($) {
 
-  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+	var	$window = $(window),
+		$body = $('body');
 
-  const gl = document.createElement("canvas").getContext("webgl2");
-  console.log(gl);
+	// Breakpoints.
+		breakpoints({
+			xlarge:   [ '1141px',  '1680px' ],
+			large:    [ '981px',   '1140px' ],
+			medium:   [ '737px',   '980px'  ],
+			small:    [ '481px',   '736px'  ],
+			xsmall:   [ '321px',   '480px'  ],
+			xxsmall:  [ null,      '320px'  ]
+		});
 
-  const heart = new NextParticle({
-    renderer: gl?'webgl':'',
-    image: document.querySelector('.logo'),
-    width:350,
-    height:350,
-    maxWidth:350,
-    maxHeight:350,
-    particleSize:1,
-    particleGap:2,
-    fadeDirection:'random',
-    initDirection:'none',
-    noise:20,
-    initPosition:'none',
-    fadePosition:'random',
-  });
+	// Play initial animations on page load.
+		$window.on('load', function() {
+			window.setTimeout(function() {
+				$body.removeClass('is-preload');
+			}, 100);
+		});
 
-  const heartsmall = new NextParticle({
-    renderer: gl?'webgl':'',
-    image: document.querySelector('.logo-small'),
-    width:350,
-    height:350,
-    maxWidth:350,
-    maxHeight:350,
-    particleSize:1,
-    particleGap:2,
-    fadeDirection:'random',
-    initDirection:'none',
-    noise:20,
-    initPosition:'none',
-    fadePosition:'random'
-  });
+	// Scrolly.
+		$('.scrolly').scrolly();
 
-
-});
+})(jQuery);
