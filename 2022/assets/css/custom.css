@@ -1,0 +1,8 @@
+tr > td:nth-child(2) > div:nth-child(2) { 
+    font-size: 10pt;
+  }
+
+tr > td:nth-child(3) > div:nth-child(2) { 
+    font-size: 10pt;
+  }
+  

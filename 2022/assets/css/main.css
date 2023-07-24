@@ -35,7 +35,7 @@ body {
 
 ol, ul {
 	list-style: none;
-	font-family: "Overpass", Helvetica, sans-serif;
+	font-family: "Fira Code", Helvetica, sans-serif;
 }
 
 blockquote, q {
@@ -99,8 +99,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #2B247C;
-		font-family: "Overpass", Helvetica, sans-serif;
+		color: #666666ff;
+		font-family: "Fira Code", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -118,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent !important;
-			color: #2B247C;
+			color: #002fa7;
 		}
 
 	strong, b {
@@ -132,13 +132,12 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
-		font-family: "Overpass", sans-serif;
+		font-family: "Fira Code", sans-serif;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: "Overpass", Helvetica, sans-serif;
-		color: #5554D9;
-		font-weight: 600;
+		font-family: "Inter", Helvetica, sans-serif;
+		color: #002fa7;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -151,19 +150,20 @@ input, select, textarea {
 	h1 {
 		font-size: 2.25em;
 		line-height: 1.35em;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	h2 {
 		font-size: 2em;
 		line-height: 1.35em;
-		font-weight: 600;
+		font-weight: 400;
+		color: #002fa7;
 	}
 
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	h4 {
@@ -2324,7 +2324,7 @@ input, select, textarea {
 		}
 
 		.icon.style5:before {
-			color: #2B247C;
+			color: #002fa7;
 		}
 
 		.icon.style6:before {
@@ -2785,7 +2785,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #2B247C;
+			background-color: #002fa7;
 			box-shadow: none !important;
 			color: #fff !important;
 		}
@@ -2826,12 +2826,12 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #E6E3EC;
+			background: #E5E5E5;
 		}
 
 		.main.style2 {
-			background-color: #2B247C;
-			color: #E6E3EC;
+			background-color: #002fa7;
+			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
 			background-size: auto,							cover;
 		}
@@ -2923,7 +2923,7 @@ input, select, textarea {
 		background-color: #020887;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed;
-			background-image: url("images/overlay2.png"), url("../../images/blue_background.png");
+			background-image: url("images/overlay2.png"), url("../../images/dark_background.png");
 			background-size: auto,									cover,							cover;
 		overflow: hidden;
 		position: relative;
@@ -3118,7 +3118,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("../../images/blue_background.png");
+		background-image: url("images/overlay2.png"), url("../../images/dark_background.png");
 		background-size: auto,									cover,							cover;
 		text-align: center;
 	}
